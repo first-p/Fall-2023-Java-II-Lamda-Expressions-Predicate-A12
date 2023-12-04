@@ -19,7 +19,7 @@ public class Proj12Runner {
 
     public boolean[] run(String x, String y, String z) {
         // Lambda expression using Predicate functional interface
-        Predicate<String> isPalindrome = str -> str.equalsIgnoreCase(new StringBuilder(str).reverse().toString());
+        Predicate<String> isPalindrome = str -> str.equals(new StringBuilder(str).reverse().toString());
 
         // Check each string and store the results in a boolean array
         boolean[] results = new boolean[3];
