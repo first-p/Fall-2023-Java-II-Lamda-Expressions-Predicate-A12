@@ -28,5 +28,6 @@ public class Proj12Runner {
         results[2] = isPalindrome.test(z);
 
         return results;
+        
     }
 }
